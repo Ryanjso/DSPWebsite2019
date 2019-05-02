@@ -1,0 +1,131 @@
+h1 {
+  font-family: "Roboto Slab", serif;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 0px solid lightgray;
+  height: 8vh;
+}
+
+.div-with-links {
+  display: flex;
+  align-content: center;
+}
+
+.nav-links {
+  padding: 0 2vw 0 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin: 1vw;
+  color: lightgray;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+  margin: 1vw;
+  color: gray;
+  border-bottom: 4px solid rgb(124, 82, 136);
+}
+
+.flyer {
+  width: auto;
+  height: 92vh;
+  background-image: url(hands.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.landing {
+  height: 92vh;
+  width: 100vw;
+  background-image: url(landing.png);
+  background-size: 40vw auto;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-position-x: 50vw;
+  padding: 24vh 14vw 0 12vw;
+
+}
+
+.apply-btn {
+  color: white;
+  text-decoration: none;
+  padding: 1vh 2vw;
+  border-radius: 5px;
+  background-color: rgb(124, 82, 136);
+  border: 2px solid rgb(124, 82, 136);
+  margin: 1vh 2vw 0 0;
+}
+
+.apply-btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.learn-btn {
+  color: rgb(124, 82, 136);
+  text-decoration: none;
+  padding: 1vh 2vw;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid rgb(124, 82, 136);
+  margin: 1vh 2vw 0 0;
+
+}
+
+.learn-btn:hover {
+  color: rgb(124, 82, 136);
+  text-decoration: none;
+
+}
+
+.btn-next {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.h3-land {
+  color: lightgray;
+  font-weight: 400;
+}
+
+.fb {
+  color: rgb(59, 89, 152);
+}
+
+.insta {
+color: rgb(205, 72, 107);
+}
+
+.mail-color {
+  color: green
+}
+
+.position-gallery {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.about {
+  padding: 10vh 10vw;
+}
